@@ -1,0 +1,38 @@
+Sentiment_Analysis_RNN/
+│
+├── dataset/
+│   ├── raw/
+│   │   └── imdb_reviews.csv
+│   │
+│   └── processed/
+│       ├── X_train.pkl
+│       ├── X_test.pkl
+│       ├── y_train.pkl
+│       └── y_test.pkl
+│
+├── model/
+│   ├── sentiment_rnn.h5
+│   ├── tokenizer.pkl
+│   └── training_history.pkl
+│
+├── notebooks/
+│   └── experimentation.ipynb
+│
+├── src/
+│   ├── data_preprocessing.py
+│   ├── model_building.py
+│   ├── train.py
+│   ├── evaluate.py
+│   └── predict.py
+│
+├── app/
+│   └── streamlit_app.py
+│
+├── assets/
+│   ├── banner.png
+│   └── style.css
+│
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── main.py
